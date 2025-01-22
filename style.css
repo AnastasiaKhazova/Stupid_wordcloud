@@ -1,0 +1,22 @@
+:root {
+    --width: 55vw;
+}
+
+.cloud {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 660px;
+    line-height: 0.9rem;
+  }
+.cloud > div {
+    /* display: flex; */
+    min-width: max-content;
+}
+
+.cloud div > div {
+    display: inline-block;
+}
+
